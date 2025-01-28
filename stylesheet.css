@@ -80,29 +80,29 @@ h1, h2, h3 {
         }
 
         /* Navigation styling */
-       nav {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  background-color: #112240;
-  padding: 10px 20px;
-  border-radius: 10px;
-  display: flex;
-  justify-content: space-around;
-}
+        nav {
+            display: flex;
+            gap: 20px;
+        }
 
-nav a {
-  color: #64ffda; /* Bright teal color for text */
-  text-decoration: none;
-  font-family: 'Arial', sans-serif;
-  font-size: 1.2rem;
-}
+        nav a {
+            display: block;
+            color: #64ffda;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 8px;
+            border-radius: 4px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
 
-nav a:hover {
-  color: #00c9b7; /* Slight color change on hover */
-}
+        nav a:hover {
+            background-color: #64ffda;
+            color: #0a192f;
+        }
 
-nav a:focus {
-  outline: none;
-  text-decoration: underline; /* Optional: underline on focus */
-}
+        .container {
+            max-width: 800px; padding: 20px;
+            background-color: #0a192f; border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: flex; align-items: center;
+        }
