@@ -59,6 +59,8 @@ body {
     transition: background-color 0.3s, color 0.3s;
   }
  
+.intro h1, .intro h2, .intro h3, .intro p {
+  text-align: center;
   
 
 /* Navigation container with box effect */
