@@ -10,6 +10,7 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   padding: 50px 20px;
+  text-align: center; /* Added text-align: center to the container */
 }
 
 h1, h2, h3 {
@@ -17,7 +18,6 @@ h1, h2, h3 {
 }
 
 .intro {
-  text-align: center;
   margin-top: 100px;
 }
 
@@ -25,7 +25,6 @@ h1, h2, h3 {
   line-height: 0.2;
   font-size: 1rem;
   color: #64ffda;
-  text-align: center; /* Added */
 }
 
 .intro h2 {
@@ -33,14 +32,12 @@ h1, h2, h3 {
   font-weight: bold;
   margin: 20px 0;
   color: #ffffff;
-  text-align: center; /* Added */
 }
 
 .intro h3 {
   font-size: 1rem;
   margin: 20px 0;
   color: #8892b0;
-  text-align: center; /* Added */
 }
 
 .intro p {
@@ -48,7 +45,6 @@ h1, h2, h3 {
   margin: 20px auto;
   font-size: 1rem;
   color: #8892b0;
-  text-align: center; /* Added */
 }
 
 .btn {
